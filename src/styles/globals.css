@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pragati Narrow';
+  /* src: url(/public/fonts/PragatiNarrow-Regular.ttf) format('​truetype​') or ttf; */
+  src: url(/public/fonts/PragatiNarrow-Regular.ttf) format('ttf') or ttf;
+}
+
+@font-face {
+  font-family: 'Dragon Slayer';
+  /* src: url(/public/fonts/DragonSlayer.ttf) format('​truetype​') or ttf; */
+  src: url(/public/fonts/DragonSlayer.ttf) format('ttf') or ttf;
+}
+
+.introjs-tooltip.custom-tooltip-class {
+  background-color: #FFC436;
+  color: black;
+  border: 2px solid #FFC436;
+  height: auto;
+}
+
+.custom-button-class {
+  box-sizing: content-box;
+  position: relative;
+  overflow: visible;
+  padding: 0.5rem 1rem;
+  border: 1px solid #FFC436;
+  text-decoration: none;
+  /* text-shadow: 1px 1px 0 #fff; */
+  font-size: 14px;
+  color: #000000;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: 0;
+  background-color: #FFC436;
+  border-radius: 0.2em;
+  zoom: 1;
+  display: inline;
+}
+
+.custom-button-class.introjs-disabled {
+  display: none; /* Hide the Back button when disabled */
+}
+
+.custom-tooltip-class .introjs-tooltipbuttons {
+  border-top: 1px solid #000000; /* Change this to the desired color */
+}

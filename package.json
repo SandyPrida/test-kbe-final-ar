@@ -1,0 +1,51 @@
+{
+  "name": "body-explore",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "axios": "^1.6.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "firebase": "^10.6.0",
+    "husky": "^8.0.3",
+    "i18next": "^23.7.6",
+    "install": "^0.13.0",
+    "intro.js": "^7.2.0",
+    "next": "^14.0.4",
+    "next-i18next": "^15.0.0",
+    "next-images": "^1.8.5",
+    "next-navigation": "^1.0.6",
+    "npm": "^10.2.5",
+    "prettier": "^3.1.0",
+    "react": "^18",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dnd-touch-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.5.0",
+    "react-intro.js": "^1.0.0",
+    "react-router-dom": "^6.20.1",
+    "tailwind-merge": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}
